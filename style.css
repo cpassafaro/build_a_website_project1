@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Gothic&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
 
 body {
     margin:0;
@@ -187,7 +187,7 @@ header{
     align-items: center;
     flex-direction: column;
     background-color: #BAECE8;
-}
+} 
 
 .bytes{
     display: flex;
@@ -312,6 +312,88 @@ footer{
 
 }
 
+.popular{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.popular_line{
+    padding-bottom: 10px;
+}
+
+.top_baker{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: #BAECE8;
+}
+
+.recent{
+    background:white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.experiment{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: #FDFFD5;
+}
+
+.experimental_top{
+    display:flex;
+    justify-content: space-between;
+    color:#F397B0;
+    width:500px;
+    margin-top:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.experiemental_images_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images_word{
+    display:flex;
+    flex-direction: column;
+}
+
+.gray_box{
+    width:100px;
+    height: auto;
+}
+
+.experimental_word{
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.bold{
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+
+
 @media screen and (max-width: 570px){
     header{
         max-width: 570px;
@@ -352,7 +434,7 @@ footer{
         display:none
     }
 }
-
+/*look into changing new titles with the media*/
 @media screen and (max-width: 300px){
     header{
         width: 100%;
