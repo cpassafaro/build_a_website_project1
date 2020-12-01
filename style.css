@@ -14,6 +14,8 @@ header{
     display:flex;
     justify-content: space-around;
     align-items:center;
+    /* position: absolute; */
+
     
 }
 .left_header{
@@ -78,7 +80,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-
+    /* position: absolute; */
 }
 .input_section{
     display:flex;
